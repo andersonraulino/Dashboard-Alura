@@ -65,6 +65,8 @@ pip install -r requirements.txt
 streamlit run main.py
 ```
 
+---
+
 ## 📈 Funcionalidades do Dashboard
 
 ✅ Filtros por ano, senioridade, tipo de contrato e tamanho da empresa
