@@ -24,8 +24,11 @@ O objetivo é **analisar salários na área de dados** em diferentes países, ca
 ## 📂 Estrutura do Projeto  
 
 📦 dashboard-salarios-dados
+
 ┣ 📜 main.py # Código principal do dashboard
+
 ┣ 📜 requirements.txt # Dependências do projeto
+
 ┗ 📜 README.md # Documentação
 
 ---
@@ -34,6 +37,29 @@ O objetivo é **analisar salários na área de dados** em diferentes países, ca
 
 ### Crie um ambiente virtual
 
-´´´bash
+```bash
 python -m venv .venv
-´´´
+```
+
+Ative o ambiente virtual
+*** Windows ***
+```bash
+.venv\Scripts\activate
+```
+
+*** Linux/Mac ***
+```bash
+source .venv/bin/activate
+```
+
+### Instalação das dependências
+
+```bash
+pip install -r requirements.txt
+```
+
+### Execução do projeto
+
+```bash
+streamlit run main.py
+```
