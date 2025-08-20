@@ -83,8 +83,9 @@ streamlit run main.py
 
 ✅ Exibição de tabela detalhada com os dados filtrados
 
+---
 
-### 1. Clone este repositório  
+### Clone este repositório  
 ```bash
 git clone https://github.com/andersonraulino/Dashbord-Alura.git
 cd dashboard-salarios-dados
