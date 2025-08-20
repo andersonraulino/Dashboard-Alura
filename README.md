@@ -23,13 +23,13 @@ O objetivo é **analisar salários na área de dados** em diferentes países, ca
 
 ## 📂 Estrutura do Projeto  
 
-📦 dashboard-salarios-dados
+📦 Dashboard de Análise de Salários na Área de Dados
 
-┣ 📜 main.py # Código principal do dashboard
+┣ 📜 main.py: -- Código principal do dashboard --
 
-┣ 📜 requirements.txt # Dependências do projeto
+┣ 📜 requirements.txt: -- Dependências do projeto --
 
-┗ 📜 README.md # Documentação
+┗ 📜 README.md: -- Documentação --
 
 ---
 
@@ -42,12 +42,13 @@ python -m venv .venv
 ```
 
 Ative o ambiente virtual
-*** Windows ***
+
+* Windows
 ```bash
 .venv\Scripts\activate
 ```
 
-*** Linux/Mac ***
+* Linux/Mac
 ```bash
 source .venv/bin/activate
 ```
@@ -62,4 +63,29 @@ pip install -r requirements.txt
 
 ```bash
 streamlit run main.py
+```
+
+## 📈 Funcionalidades do Dashboard
+
+✅ Filtros por ano, senioridade, tipo de contrato e tamanho da empresa
+
+✅ Cálculo de métricas gerais (salário médio, máximo, cargo mais frequente etc.)
+
+✅ Visualizações interativas com Plotly:
+
+* Top 10 cargos por salário médio
+
+* Distribuição de salários
+
+* Proporção dos tipos de trabalho (remoto, híbrido, presencial)
+
+* Salário médio de Data Scientists por país
+
+✅ Exibição de tabela detalhada com os dados filtrados
+
+
+### 1. Clone este repositório  
+```bash
+git clone https://github.com/andersonraulino/Dashbord-Alura.git
+cd dashboard-salarios-dados
 ```
